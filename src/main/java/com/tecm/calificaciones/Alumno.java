@@ -38,15 +38,15 @@ public class Alumno {
     public void imprimirResultados(String nombre, double promedio, char calificacion) {
         System.out.println("Nombre del estudiante: " + nombre);
         for (int i = 0; i < calificaciones.length; i++) {
-            System.out.println("Calificación " + (i + 1) + ": " + calificaciones[i]);
+            System.out.println("Calificacion " + (i + 1) + ": " + calificaciones[i]);
         }
         System.out.println("Promedio: " + promedio);
-        System.out.println("Calificacion: " + calificacion);
+        System.out.println("Calificacion final: " + calificacion);
     }
     
     public static void main(String[] args) {
         
-        int[] calif = {85, 90, 88, 92, 87}; // ejemplo de calificaciones
+        int[] calif = {95, 90, 88, 92, 88}; // ejemplo de calificaciones
         Alumno p = new Alumno("Juan Perez", calif);
 
         double promedio = p.calcularPromedio(calif);
