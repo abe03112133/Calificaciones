@@ -46,13 +46,13 @@ public class Participante {
     
     public static void main(String[] args) {
         
-        int[] notas = {85, 90, 88, 92, 87}; // ejemplo de calificaciones
-        Participante p = new Participante("Juan Perez", notas);
+        int[] calif = {85, 90, 88, 92, 87}; // ejemplo de calificaciones
+        Participante p = new Participante("Juan Perez", calif);
 
-        double promedio = p.calcularPromedio(notas);
-        char calif = p.obtenerCalificacion(promedio);
+        double promedio = p.calcularPromedio(calif);
+        char cFinal = p.obtenerCalificacion(promedio);
 
-        p.imprimirResultados(p.nombre, promedio, calif);
+        p.imprimirResultados(p.nombre, promedio, cFinal);
         
     }
 }
