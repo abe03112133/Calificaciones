@@ -8,6 +8,6 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.release>17</maven.compiler.release>
-        <exec.mainClass>com.tecm.calificaciones.Calificaciones</exec.mainClass>
+        <exec.mainClass>com.tecm.calificaciones.Participante</exec.mainClass>
     </properties>
 </project>
